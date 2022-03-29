@@ -17,4 +17,4 @@ jobs:
           aws-region: ap-south-1
 
       - name: Deploy website on s3 bucket
-        run: aws s3 sync ./src s3://class-example
+        run: aws s3 sync . s3://class-example
